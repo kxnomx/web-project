@@ -1,0 +1,154 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+    font-family: sans-serif;
+   
+}
+
+*{
+    outline: 1px solid yellow;  
+}
+
+.header{
+    height: 90px;
+    position: fixed;
+    height: 90px;
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.banner {
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.aboutbanner img {
+    opacity: 0.2;
+    width: 90%;
+    max-width: 950px;
+    position: absolute;  
+}
+
+.aboutbanner {
+    background-color: #ffffff;
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 240px;
+}
+
+.nav {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    font-family: Josefin Sans;
+}
+
+.links {
+    float: right;
+    color: #44495b;
+    padding-top: 34px;
+    font-family: Josefin Sans
+    
+}
+
+.nav .links a {
+    color: black;
+    text-decoration: none;
+    font-size: 0.75em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo {
+    float: left;
+    margin-top: 13px;
+    font-size: 1.35em;
+}
+
+.nav .logo a {
+    color: black;
+    text-decoration: none;
+}
+
+.behindthescenes {
+    padding: 50px;
+    text-align: center;
+}
+
+.behindthescenes img {
+    padding: 40px;
+    width: 25%;
+    max-width: 950px;
+}
+
+
+.behind img{
+     padding: 40px;
+}
+
+.single img{
+     height: 500px;
+    padding-top: 90px;
+}
+
+.single {
+    text-align: center;
+}
+
+.second {
+    text-align: center;  
+}
+
+.second img{
+     width: 35%;
+  max-width:500px;
+  max-height:500px;
+  width: auto;
+}
+
+.third {
+    text-align: center;
+}
+
+.third img{
+    width: 20%; 
+}
+
+.dscptn {
+    padding-top: 50px;
+    font-family: Josefin Sans;
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2em;
+    position: relative;
+}
+
+.contact{
+    padding-top: 65px;
+    text-align: center;
+    font-family: Josefin Sans;
+}
+
+.contact img{
+    height: 350px;
+}
+
+
+@media screen and (max-width: 300px) {
+}
+
+@media screen and (max-width: 550px) {
+   .links {
+        padding-top: 8px;
+        float: left;
+    }
+}
