@@ -1,11 +1,11 @@
 body {
-    background-color: #ffffff;
+    background-color: #000000;
     margin: 0;
     font-family: sans-serif;
    
 }
 
-*{
+{
     outline: 1px solid yellow;  
 }
 
@@ -22,7 +22,7 @@ body {
 }
 
 .banner {
-    background-color: #ffffff;
+    background-color: #000000;
     text-align: center;
     padding-top: 100px;
     padding-bottom: 20px;
@@ -36,9 +36,9 @@ body {
 }
 
 .aboutbanner {
-    background-color: #ffffff;
+    background-color: #000000;
     text-align: left;
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 20px;
     padding-left: 240px;
 }
@@ -60,7 +60,7 @@ body {
 }
 
 .nav .links a {
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 0.75em;
     padding-left: 10px;
@@ -123,6 +123,7 @@ body {
 }
 
 .dscptn {
+    color: white;
     padding-top: 50px;
     font-family: Josefin Sans;
     max-width: 950px;

@@ -1,0 +1,233 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+    margin: 0px;
+    font-family: "Helvetica Neue";
+    height: 710px;
+    width: 1227px;
+    text-decoration: none;
+	/*background: url(images/pink_gradient_box.jpg) no-repeat top center fixed*/
+	background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.PHOTOGRAPHYHeader {
+	background-color: #FCC;
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+}
+.nav {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    font-family: Josefin Sans;
+}
+.logo {
+    float: left;
+    margin-top: 13px;
+    font-size: 1.35em;
+}
+.links {
+    color: black;
+    padding-top: 20px;
+	padding-left: 20px;
+    text-align: right;
+    position: fixed;
+}
+.nav .links a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.75em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.Home {
+   margin-left: 1105px;
+}
+.PHOTOGRAPHYtitlename {
+    padding-top: 5px;
+	padding-left: 153px;
+	padding-right: 153px;
+	text-align: left;
+    font-size: 7.6em;
+    color: #FFF;
+	padding-top: 0px;
+}
+/*----------------------------------PHOTOGRAPHY PAGE STYLES----------------------------------------------*/
+.PHOTOGRAPHYfolderLinks {
+	margin-top: 0px;
+	font-size: 1.25em;
+	padding-left: 100px;
+	padding-top: 10px;
+	padding-bottom: 500px;
+	text-decoration: none;
+	list-style-type: none;
+}
+.PHOTOGRAPHY_PHOTOGRAPHYword1 {
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	font-family: helvetica;
+	margin-top: -150px;
+	margin-left: 92px;
+	opacity: 100%;
+}
+.PHOTOGRAPHY_PHOTOGRAPHYphoto1 {
+	float: left;
+	position: relative;
+	height="587"
+	width="1215"
+	text-align: center;
+	margin-left: 0px;
+	padding-top: 28px;
+	padding-bottom: 28px;
+	opacity: 100%;
+}
+.PHOTOGRAPHY_PHOTOGRAPHYword2 {
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	font-family: helvetica;
+	margin-top: -150px;
+	margin-left: 96px;
+	opacity: 100%;
+}
+.PHOTOGRAPHY_PHOTOGRAPHYphoto2 {
+	float: left;
+	position: relative;
+	height="587"
+	width="1215"
+	text-align: center;
+	margin-left: 140px;
+	padding-top: 28px;
+	padding-bottom: 28px;
+	opacity: 100%;
+}
+.PHOTOGRAPHY_DESIGNword {
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	font-family: helvetica;
+	margin-top: -150px;
+	margin-left: 22px;
+	opacity: 100%;
+}
+.PHOTOGRAPHY_DESIGNphoto {
+	float: left;
+	position: relative;
+	height="587"
+	width="1215"
+	text-align: center;
+	margin-left: 140px;
+	padding-top: 28px;
+	padding-bottom: 28px;
+	opacity: 100%;
+}
+/*------------------------------------------JQUARY----------------------------------------------*/
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+.callbacks_container_PHOTOS {
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+  position: relative;
+  width: 75%;
+  }
+  
+.callbacks img {
+  display: block;
+  position: relative;
+  z-index: 1;
+  height: auto;
+  width: 100%;
+  padding: -10px;
+  border: 0;
+  }
+.callbacks .caption {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  font-size: 20px;
+  text-shadow: none;
+  color: #fff;
+  background:#000;
+  background: rgba(0,0,0, .8);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 10px 20px;
+  margin: 0;
+  max-width: none;
+  }
+.callbacks_nav {
+  position: absolute;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  top: 52%;
+  left: 0;
+  opacity: 0.7;
+  z-index: 3;
+  text-indent: -9999px;
+  overflow: hidden;
+  text-decoration: none;
+  height: 61px;
+  width: 38px;
+  background: transparent url(jQuery/ResponsiveSlides.js-master/demo/themes/themes.gif) no-repeat left top;
+  margin-top: -45px;
+  background-color:#000;
+  }
+.callbacks_nav:active {
+  opacity: 1.0;
+  }
+.callbacks_nav.next {
+  left: auto;
+  background-position: right top;
+  right: 0;
+  background:transparent url(jQuery/ResponsiveSlides.js-master/demo/themes/themes.gif) no-repeat right top;
+  background-color:#000;
+}
+/*----------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 300px) {
+}
+@media screen and (max-width: 550px) {
+   .links {
+        padding-top: 8px;
+        float: left;
+    }
+}

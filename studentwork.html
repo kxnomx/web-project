@@ -1,13 +1,55 @@
 <!DOCTYPE html>
-
-<html>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="jQuery/ResponsiveSlides.js-master/responsiveslides.min.js"></script>
+<script src="jQuery/ResponsiveSlides.js-master/responsiveslides.css"></script>
+<script src="jQuery/ResponsiveSlides.js-master/demo/themes/themes.css"></script>
+<script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+      // Slideshow 1
+      $("#slider1").responsiveSlides({
+        maxwidth: 800,
+        speed: 800
+      });
+      // Slideshow 2
+      $("#slider2").responsiveSlides({
+        auto: false,
+        pager: true,
+        speed: 300,
+        maxwidth: 540
+      });
+      // Slideshow 3
+      $("#slider3").responsiveSlides({
+        manualControls: '#slider3-pager',
+        maxwidth: 540
+      });
+      // Slideshow 4
+      $("#slider4").responsiveSlides({
+        auto: false,
+        pager: false,
+        nav: true,
+        speed: 500,
+        namespace: "callbacks",
+        before: function () {
+          $('.events').append("<li>before event fired.</li>");
+        },
+        after: function () {
+          $('.events').append("<li>after event fired.</li>");
+        }
+      });
+    });
+  </script>
+  
+    <html>
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>student work</title>
 </head>
 
 <body>
+
 <link rel="stylesheet" href="CMP.css" />
-    <link rel="stylesheet" href="lightbox/css/lightbox.min.css" />
+ <link rel="stylesheet" href="student.css" />
      <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 </head>
 
@@ -28,37 +70,139 @@
             </div>
       </div>
     </div>
+    
+    
+   <!--<div class="PHOTOGRAPHYHeader">
+    
+        <div class="headerNav">
+            <div class="Links">
+                <a class="Home" href="index.html">&bull;HOME</a>
+            </div>
+        </div>
+        
+    </div>-->
    
-   <div class="behindthescenes">
-   
-    <a href="pc lab guy.jpg" data-lightbox="gallery">
-    <img src="pcthumb.png" />
-    </a>
-    
-      <a href="filming in the studio.jpg" data-lightbox="gallery">
-    <img src="filmthumb.png" />
-    </a>
-        <a href="green screen.jpg" data-lightbox="gallery">
-    <img src="greenthumb.png" />
-    </a>
-    
-      <a href="in the studio.jpg" data-lightbox="gallery">
-    <img src="studiothumb.png" />
-    </a>
-      
-        <a href="sound mixing desk.jpg" data-lightbox="gallery">
-    <img src="soundmixthumb.png" />
-    </a>
-    
-      <a href="bcm recording studio from above.jpg" data-lightbox="gallery">
-    <img src="bcmthumb.png" />
-    </a>
-    
-    <script src="lightbox/js/lightbox-plus-jquery.min.js"></script>
-
-
-
+<!--------------------------------------------------------------------------------------------->
+<!-- <div class="callbacks_container_PHOTOS"> 
+        <ul class="rslides" id="slider4"> 
+          <li>
+          <img src="photos/work/brian_li_max_telfer01-copy_RESIZED.jpg">
+          <!--<h3>
+          <p class="caption">PHOTO</p>
+          </h3>-->
+         <!-- </li>
+          
+          <li>
+          <img src="photos/work/cm-stage-setup-small-scale_RESIZED.jpg"> 
+          </li>
+          
+          <li>
+          <img src="photos/work/digital_expoure_12_RESIZED.jpg"> 
+          </li>
+          
+          <li>
+          <img src="photos/work/hamish_fraser__0001_img3_RESIZED.jpg">
+          </li>
+          
+          <li>
+          <img src="photos/work/hamish_fraser__0002_img2_RESIZED.jpg"> 
+          </li>
+          
+          <li>
+          <img src="photos/work/hamish_fraser__0003_img1-copy-3_RESIZED.jpg"> 
+          </li>
+          
+          <li>
+          <img src="photos/work/harding_charlie-01.jpg">
+          </li>
+          
+          <li>
+          <img src="photos/work/harding_charlie-02_RESIZED.jpg"> 
+          </li>
+          
+          <li>
+          <img src="photos/work/harding_charlie-03_RESIZED.jpg"> 
+          </li>
+          
+          <li>
+          <img src="photos/work/harding_charlie-04_RESIZED.jpg"> 
+          </li>
+          
+          <li>
+          <img src="photos/work/hot-water-cylindersaurus_RESIZED.jpg"> 
+          </li>
+          
+          <li>
+          <img src="photos/work/marco-ivancic_illustration-2012_RESIZED.jpg"> 
+          </li>
+          
+          <!--<li>
+          <img src="photos/work/"> 
+          </li>-->
+          
+          <div class="callbacks_container_PHOTOS"> 
+        <ul class="rslides" id="slider4"> 
+          <li>
+          <img src="work/brian_li_max_telfer.jpg">
+          <!--<h3>
+          <p class="caption">PHOTO</p>
+          </h3>-->
+         </li>
+          
+          <li>
+          <img src="work/cm-stage-setup-small-scale.jpg"> 
+          </li>
+          
+          <li>
+          <img src="photos/work/digital_expoure_12_RESIZED.jpg"> 
+          </li>
+          
+          <li>
+          <img src="photos/work/hamish_fraser__0001_img3_RESIZED.jpg">
+          </li>
+          
+          <li>
+          <img src="photos/work/hamish_fraser__0002_img2_RESIZED.jpg"> 
+          </li>
+          
+          <li>
+          <img src="photos/work/hamish_fraser__0003_img1-copy-3_RESIZED.jpg"> 
+          </li>
+          
+          <li>
+          <img src="photos/work/harding_charlie-01.jpg">
+          </li>
+          
+          <li>
+          <img src="photos/work/harding_charlie-02_RESIZED.jpg"> 
+          </li>
+          
+          <li>
+          <img src="photos/work/harding_charlie-03_RESIZED.jpg"> 
+          </li>
+          
+          <li>
+          <img src="photos/work/harding_charlie-04_RESIZED.jpg"> 
+          </li>
+          
+          <li>
+          <img src="photos/work/hot-water-cylindersaurus_RESIZED.jpg"> 
+          </li>
+          
+          <li>
+          <img src="photos/work/marco-ivancic_illustration-2012_RESIZED.jpg"> 
+          </li>
+          
+          <!--<li>
+          <img src="photos/work/"> 
+          </li>-->
+        </ul>
 </div>
+ 
+</body>
+</html>
+
+
 
 </body>
 </html>
