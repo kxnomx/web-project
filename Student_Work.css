@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
+
 body {
     margin: 0px;
     font-family: "Helvetica Neue";
@@ -11,12 +12,14 @@ body {
     margin: 0;
     padding: 0;
 }
+
 .PHOTOGRAPHYHeader {
 	background-color: #FCC;
     background-size: cover;
     margin: 0px;
     padding: 0px;
 }
+
 .nav {
     max-width: 950px;
     margin-left: auto;
@@ -24,11 +27,13 @@ body {
     color: black;
     font-family: Josefin Sans;
 }
+
 .logo {
     float: left;
     margin-top: 13px;
     font-size: 1.35em;
 }
+
 .links {
     color: black;
     padding-top: 20px;
@@ -36,16 +41,19 @@ body {
     text-align: right;
     position: fixed;
 }
+
 .nav .links a {
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 0.75em;
     padding-left: 10px;
     padding-right: 10px;
 }
+
 .Home {
    margin-left: 1105px;
 }
+
 .PHOTOGRAPHYtitlename {
     padding-top: 5px;
 	padding-left: 153px;
@@ -55,7 +63,10 @@ body {
     color: #FFF;
 	padding-top: 0px;
 }
+
+
 /*----------------------------------PHOTOGRAPHY PAGE STYLES----------------------------------------------*/
+
 .PHOTOGRAPHYfolderLinks {
 	margin-top: 0px;
 	font-size: 1.25em;
@@ -65,6 +76,7 @@ body {
 	text-decoration: none;
 	list-style-type: none;
 }
+
 .PHOTOGRAPHY_PHOTOGRAPHYword1 {
 	color: #fff;
 	text-align: center;
@@ -74,6 +86,7 @@ body {
 	margin-left: 92px;
 	opacity: 100%;
 }
+
 .PHOTOGRAPHY_PHOTOGRAPHYphoto1 {
 	float: left;
 	position: relative;
@@ -85,6 +98,7 @@ body {
 	padding-bottom: 28px;
 	opacity: 100%;
 }
+
 .PHOTOGRAPHY_PHOTOGRAPHYword2 {
 	color: #fff;
 	text-align: center;
@@ -94,6 +108,7 @@ body {
 	margin-left: 96px;
 	opacity: 100%;
 }
+
 .PHOTOGRAPHY_PHOTOGRAPHYphoto2 {
 	float: left;
 	position: relative;
@@ -105,6 +120,7 @@ body {
 	padding-bottom: 28px;
 	opacity: 100%;
 }
+
 .PHOTOGRAPHY_DESIGNword {
 	color: #fff;
 	text-align: center;
@@ -114,6 +130,7 @@ body {
 	margin-left: 22px;
 	opacity: 100%;
 }
+
 .PHOTOGRAPHY_DESIGNphoto {
 	float: left;
 	position: relative;
@@ -125,15 +142,26 @@ body {
 	padding-bottom: 28px;
 	opacity: 100%;
 }
+
 /*------------------------------------------JQUARY----------------------------------------------*/
+
 .rslides {
   position: relative;
   list-style: none;
   overflow: hidden;
   width: 100%;
-  padding-top: 200px;
+  padding: 0;
   margin: 0;
   }
+
+/*.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }*/
 
 .rslides li {
   -webkit-backface-visibility: hidden;
@@ -143,11 +171,13 @@ body {
   left: 0;
   top: 0;
   }
+
 .rslides li:first-child {
   position: relative;
   display: block;
   float: left;
   }
+
 .rslides img {
   display: block;
   height: auto;
@@ -155,6 +185,7 @@ body {
   width: 100%;
   border: 0;
   }
+
 .callbacks_container_PHOTOS {
   margin-top: 10px;
   margin-right: auto;
@@ -162,6 +193,7 @@ body {
   margin-left: auto;
   position: relative;
   width: 75%;
+
   }
   
 .callbacks img {
@@ -173,6 +205,7 @@ body {
   padding: -10px;
   border: 0;
   }
+
 .callbacks .caption {
   display: block;
   position: absolute;
@@ -189,6 +222,7 @@ body {
   margin: 0;
   max-width: none;
   }
+
 .callbacks_nav {
   position: absolute;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -205,9 +239,11 @@ body {
   margin-top: -45px;
   background-color:#000;
   }
+
 .callbacks_nav:active {
   opacity: 1.0;
   }
+
 .callbacks_nav.next {
   left: auto;
   background-position: right top;
@@ -215,9 +251,12 @@ body {
   background:transparent url(jQuery/ResponsiveSlides.js-master/demo/themes/themes.gif) no-repeat right top;
   background-color:#000;
 }
+
 /*----------------------------------------------------------------------------------------------------*/
+
 @media screen and (max-width: 300px) {
 }
+
 @media screen and (max-width: 550px) {
    .links {
         padding-top: 8px;
